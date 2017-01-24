@@ -1,7 +1,7 @@
 import React from 'react';
-import './Layout.css';
+import './Header.css';
 
-class Layout extends React.Component{
+class Header extends React.Component{
 
 	render(){
 		return(
@@ -16,4 +16,4 @@ class Layout extends React.Component{
 	}
 }
 
-export default Layout;
+export default Header;
