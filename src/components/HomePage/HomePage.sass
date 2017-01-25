@@ -1,0 +1,42 @@
+@import "../../constants"
+
+#main
+    background-image: url('../../../assets/images/blog-background.jpg')
+    background-size: cover
+    height: 100%
+
+#panel
+    background-color: $transparent-background
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 100%
+    height: 45%
+    min-height: 370px
+    min-width: 370px
+    text-align: center
+
+#welcome 
+    display: block
+    position: relative
+    top: 35%
+    color: white
+    font-size: 50px
+
+#try-now 
+    display: block
+    position: relative
+    top: 45%
+    margin: auto
+    background: $orange-button
+    color: white
+    border: none
+    border-radius: 3px
+    box-shadow: $button-shadow
+    font-size: 16px
+    text-align: center
+    padding: 15px 40px
+
+#try-now:hover 
+    background: $hover-orange-button
