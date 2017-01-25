@@ -3,6 +3,9 @@
 # dependencies
 node_modules
 
+scripts
+config
+
 # testing
 coverage
 
