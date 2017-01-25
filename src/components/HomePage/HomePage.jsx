@@ -8,9 +8,10 @@ class HomePage extends React.Component{
 	render(){
 		return(
 			<div className="main">
-				<form className="form">
-					<h1>FORM</h1>
-				</form>
+				<div className="form">
+					<span id="welcome">Welcome to MyBlog</span>
+					<button id="try-now">Try Now</button>
+				</div>
 			</div>
 			);
 	}
