@@ -4,7 +4,9 @@ import HomePage from './components/HomePage/HomePage.jsx';
 class App extends Component {
   render() {
     return (
-      <HomePage/>
+      <div>
+        {this.props.children}
+      </div>
     );
   }
 }
