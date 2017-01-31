@@ -10,10 +10,10 @@ import './index.sass';
 
 ReactDOM.render( 
   <Router history={browserHistory}>
-    <Route path='/app' component={App}>
-      <IndexRoute component={HomePage} />
-      <Route path='app' component={Header} />
+    <Route path='/' component={App}>
+      <IndexRoute component={Header} />
     </Route>
+    <Route path='home' component={HomePage} />
   </Router> ,
   document.getElementById('root')
 );

@@ -7,7 +7,7 @@ import './HomePage.sass';
 
 class HomePage extends React.Component{
 	handleClick(e){
-		browserHistory.push(`/app`)
+		browserHistory.push(`/`)
 	}
 
 	render(){
